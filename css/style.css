@@ -153,12 +153,18 @@ div{
 	display: flex;
 	display: -webkit-flex;
 	float:left;
+	position:relative;
 }
 .app-content img{
 	width:31.7%;
 	height:auto;
 	display:inline-block;
 	margin:auto auto;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
 }
 .app-text{
 	width:55.5%;
@@ -220,14 +226,38 @@ div{
 	float:left;
 	font-size:14px;
 	color:#999;
-	display: -moz-box; 
-	display: -ms-flexbox;
-	display:box;
-	display: -webkit-box;
-	display: flex;
-	display: -webkit-flex;
 	padding-top:38px;
 	line-height:26px;
+	display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  
+  display: -o-box;
+  -o-box-orient: horizontal;
+  -o-box-pack: center;
+  -o-box-align: center;
+  
+  display: -ms-box;
+  -ms-box-orient: horizontal;
+  -ms-box-pack: center;
+  -ms-box-align: center;
+  
+  display:-ms-flexbox;
+  -ms-flex-orient: horizontal;
+-ms-flex-pack:center;
+-ms-flex-align:center;
+
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+	
 }
 .content3-text-cont{
 	width:100%;
@@ -304,6 +334,7 @@ div{
 	display: -webkit-flex;
 	float:left;
 	padding-left:7.1%;
+	position:relative;
 }
 .teachers-img{
 	width:31.5%;
@@ -316,12 +347,18 @@ div{
 	display: -webkit-flex;
 	float:left;
 	padding-left:3.3%;
+	position:relative;
 }
 .teachers-img img{
 	width:47%;
 	height:auto;
 	display:inline-block;
 	margin:auto auto;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
 }
 .teachers-text{
 	width:57.5%;
@@ -331,12 +368,35 @@ div{
 	color:#333;
 	line-height:24px;
 	text-indent:2em;
-	display: -moz-box; 
-	display: -ms-flexbox;
-	display:box;
 	display: -webkit-box;
-	display: flex;
-	display: -webkit-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  
+  display: -o-box;
+  -o-box-orient: horizontal;
+  -o-box-pack: center;
+  -o-box-align: center;
+  
+  display:-ms-flexbox;
+  -ms-flex-orient: horizontal;
+-ms-flex-pack:center;
+-ms-flex-align:center;
+
+  display: -ms-box;
+  -ms-box-orient: horizontal;
+  -ms-box-pack: center;
+  -ms-box-align: center;
+  
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
 }
 .teachers-text-content{
 	margin:auto auto;
@@ -348,10 +408,15 @@ div{
 	background:#fff !important;
 }
 .course-content img{
-	width:90.3%;
+	width:75%;
 	height:auto;
 	display:inline-block;
 	margin:auto auto;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
 }
 .course-text{
 	width:47.5%;
@@ -388,12 +453,18 @@ div{
 	display: -webkit-box;
 	display: flex;
 	display: -webkit-flex;
+	position:relative;
 }
 .course-item2-img img{
-	width:88.3%;
+	width:80.3%;
 	height:auto;
 	display:inline-block;
 	margin:auto auto;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
 }
 .aboutus-left{
 	width:50%;
@@ -408,16 +479,27 @@ div{
 	top:0;
 	left:0;
 	padding-top:58px;
+	z-index:111;
 }
-.aboutus-left img{
-	width:66.67%;
+.aboutus-left-rel{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.aboutus-left-rel img{
+	width:73.67%;
 	height:auto;
 	display:inline-block;
 	margin:auto auto;
 	z-index:111;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
 }
 .aboutus-right{
-	width:50%;
+	width:49%;
 	height:100%;
 	position:absolute;
 	top:0;
